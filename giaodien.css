@@ -4,8 +4,8 @@
 	height: auto;
 }
 #menu{
-	 margin: 1px;
-   	 padding: 1px;
+	 margin: 0px;
+   	 padding: 0px;
    	 font-family: sans-serif;
   	 color:green;
   	 background: pink;
@@ -21,7 +21,22 @@
 #menu li {
   color: #f1f1f1;
   float: left;
-  width: 120px;
+  width: auto;
   height: 40px;
   line-height: 40px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+   }
+#start {
+  background-color: pink;
+  width: auto;
+  height: auto;
 }
