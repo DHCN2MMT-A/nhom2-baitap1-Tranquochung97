@@ -1,7 +1,7 @@
 #menu{
 	width: auto;
 	height: auto;
-	background: black;
+	background-color: pink;
 	float: left;
 }
 #menu>ul>li>a{
@@ -12,7 +12,7 @@
 	display: inline-block;
 	text-align: center;
 	padding: 1px;
-	background: green;
+	background: pink;
 	float: left;
 
 
