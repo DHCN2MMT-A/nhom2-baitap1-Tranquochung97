@@ -1,0 +1,19 @@
+#menu{
+	width: auto;
+	height: auto;
+	background: black;
+	float: left;
+}
+#menu>ul>li>a{
+	float: left;
+}
+#menu>ul>li{
+	font-size: 15px;
+	display: inline-block;
+	text-align: center;
+	padding: 1px;
+	background: green;
+	float: left;
+
+
+}
