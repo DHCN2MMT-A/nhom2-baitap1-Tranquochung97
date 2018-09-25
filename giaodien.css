@@ -1,19 +1,27 @@
-#menu{
+#slider {
+	background-color: pink;
 	width: auto;
 	height: auto;
-	background-color: pink;
-	float: left;
 }
-#menu>ul>li>a{
-	float: left;
+#menu{
+	 margin: 1px;
+   	 padding: 1px;
+   	 font-family: sans-serif;
+  	 color:green;
+  	 background: pink;
+  	 list-style-type: none;
+     text-align: center;
 }
-#menu>ul>li{
-	font-size: 15px;
-	display: inline-block;
-	text-align: center;
-	padding: 1px;
-	background: pink;
-	float: left;
-
-
+#menu li{
+	 background: #1F568B;
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+}
+#menu li {
+  color: #f1f1f1;
+  float: left;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
 }
